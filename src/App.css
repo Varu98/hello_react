@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap");
+* {
+  background-color: #1a1b26;
+  color: antiquewhite;
+  font-family: "Fredoka", sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -28,6 +35,41 @@
   color: #61dafb;
 }
 
+.text-align-left {
+  text-align: left;
+}
+.text-align-center {
+  text-align: center;
+}
+.center-margin {
+  margin: auto;
+}
+.margin-bottom {
+  margin-bottom: 1rem;
+}
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.purple-border {
+  border: 2px solid purple;
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+button {
+  border: 2px solid purple;
+  border-radius: 4px;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #484957;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
